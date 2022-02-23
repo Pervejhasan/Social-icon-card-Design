@@ -133,3 +133,30 @@ p {
   top: 0;
   left: 0;
 }
+@media only screen and (max-width: 760px) {
+  /* body {
+    background-color: black;
+  } */
+
+  .card-container .card-style {
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  /* body {
+    background-color: cornflowerblue;
+  } */
+
+  .card-container .card-style {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 430px) {
+  /* body {
+    background-color: cornflowerblue;
+  } */
+
+  .card-container .card-style {
+    width: 80%;
+  }
+}
